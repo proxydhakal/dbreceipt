@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>FIXED DEPOSIT RECEIPT</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+   <section class="fd-receipt">
+	   <div class="container py-5">
+            <div class="top-header d-flex pb-3">
+                <div class="logo my-auto">
+                    <img class="logo-img" src="transparantlogo.png" alt="Logo">
+                </div>
+                <div class="header-info p-2">
+                    <p>खातावालाको नाम / Account Holder's Name:</p>
+                    <br>
+                    <p>मुद्धती खाता नं. / Fixed Deposit A/c No.:</p>
+                </div>
+            </div>
+
+            <h2 class="text-center mt-2">मुद्धती रसिद</h2>
+            <h2 class="text-center">FIXED DEPOSIT RECEIPT</h2>
+
+            <div class="fd-section">
+                <table class="table text-nowrap p-5" id="dataTable" width="100%">
+                    <tbody>
+                        <tr>
+                            <td class="">संकेत नं. / Ref No. :</td>
+                            <td class=""></td>
+                            <td class="date">मिति / Date :</td>
+                        </tr> 
+                    
+                        <tr> 
+                            <td class="amount" rowspan="2">रकम / Amount</td> 
+                            <td class="">अंकमा / In Figure :</td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td class="">अक्षरमा / In Words :</td> 
+                        </tr>
+
+                        <tr> 
+                            <td class="">अवधि / Period :</td> 
+                            <td class="">महिनामा / Months At :</td> 
+                            <td class="">वार्षिक प्रतिशत / % per annum</td> 
+                        </tr>
+                
+                        <tr> 
+                            <td class="">देखि / From :</td>   
+                            <td class=""></td>
+                            <td class="">सम्म / To :</td>         
+                        </tr>
+
+                        <tr> 
+                            <td class="">a) Nominee for Interest & Tax :</td>
+                        </tr>
+
+                        <tr> 
+                            <td class="">b) Nominee for Principal :</td>                  
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="footer d-flex pt-5">
+                <!-- <div class="signature-here"> -->
+                    <div class="authorized-sign">
+                      <p class="text-here">....................................................................................</p>
+                      <p class="text-here">अधिकृत दस्तखत / Authorized Signature</p>
+                    </div>
+                    
+                    <div class="authorized-sign">
+                      <p class="text-here">....................................................................................</p>
+                      <p class="text-here">अधिकृत दस्तखत / Authorized Signature</p>
+                    </div>
+                <!-- </div> -->
+            </div><br>
+            <p class="footer-interest-text text-center">"Interest rate for loan against FDR shall be 2% addition on coupon rate."</p>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+<style type="text/css">
+    .fd-receipt {
+        background-image: url('fdimage.jpg');
+        color: #134072;
+        height: auto;
+        /*width: 765px;*/
+    }
+
+    .fd-receipt .top-header {
+        justify-content: space-between;
+    }
+
+    .fd-receipt .top-header .logo .logo-img {
+        height: 80px;
+    }
+
+    .fd-receipt .top-header .header-info {
+        border: 2px solid #134072;
+        width: 600px;
+        height: 130px;
+    }
+
+    .fd-section .table {
+        color: #134072;
+    }
+
+    .fd-section .table thead tr {
+        justify-content: space-between;
+    }
+
+    .fd-section .table tr {
+        border: 1px solid #134072;
+    }
+
+    .fd-section .table .amount {
+        padding-top: 28px;
+        width: 370px;
+        border: 1px solid #134072;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+</style>
+</html>
