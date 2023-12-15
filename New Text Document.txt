@@ -68,11 +68,22 @@
                     </tbody>
                 </table>
             </div>
+
+            <div class="footer d-flex pt-5">
+                <!-- <div class="signature-here"> -->
+                    <div class="authorized-sign">
+                      <p class="text-here">....................................................................................</p>
+                      <p class="text-here">अधिकृत दस्तखत / Authorized Signature</p>
+                    </div>
+                    
+                    <div class="authorized-sign">
+                      <p class="text-here">....................................................................................</p>
+                      <p class="text-here">अधिकृत दस्तखत / Authorized Signature</p>
+                    </div>
+                <!-- </div> -->
+            </div><br>
             <p class="footer-interest-text text-center">"Interest rate for loan against FDR shall be 2% addition on coupon rate."</p>
-            <br>
-            <p class="text-center hello">***This document is electronically generated and does not require digital signature.***</p>
         </div>
-        <br>
     </section>
 
 
@@ -83,10 +94,9 @@
 <style type="text/css">
     .fd-receipt {
         background-image: url('fdimage.jpg');
-        background-size: cover; /* Cover the entire container */
-        background-repeat: no-repeat; /* Prevent image repetition */
         color: #134072;
-        height: 125vh; /* Make the section cover the entire viewport height */
+        height: auto;
+        /*width: 765px;*/
     }
 
     .fd-receipt .top-header {
@@ -123,10 +133,6 @@
 
     .footer {
         justify-content: space-between;
-    }
-    .hello{
-        color: #000;
-        font: bold;
     }
 </style>
 </html>
